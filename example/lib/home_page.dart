@@ -24,11 +24,13 @@ class HomePage extends StatelessWidget {
             );
             if (result != null) {
               File file = File(result.files.single.path!);
-              Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) {
-                  return TrimmerView(file);
-                }),
-              );
+              if (context.mounted) {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) {
+                    return TrimmerView(file);
+                  }),
+                );
+              }
             }
           },
         ),

@@ -18,6 +18,11 @@ allprojects {
     }
 }
 
+android {
+    namespace "com.heckr.mobile.video.trimmer" 
+}
+
+
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"

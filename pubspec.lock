@@ -21,10 +21,10 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: ee67cb0715911d28db6bf4af1026078bd6f0128b07a5f66fb2ed94ec6783c09a
+      sha256: a1ace0a119f20aabc852d165077c036cd864315bd99b7eaa10a60100341941bf
       url: "https://pub.dev"
     source: hosted
-    version: "1.18.0"
+    version: "1.19.0"
   csslib:
     dependency: transitive
     description:
@@ -191,7 +191,7 @@ packages:
     dependency: transitive
     description: flutter
     source: sdk
-    version: "0.0.99"
+    version: "0.0.0"
   source_span:
     dependency: transitive
     description:
@@ -267,10 +267,11 @@ packages:
   video_thumbnail:
     dependency: "direct main"
     description:
-      name: video_thumbnail
-      sha256: "3455c189d3f0bb4e3fc2236475aa84fe598b9b2d0e08f43b9761f5bc44210016"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "2212d8807fef9df5ec465393c996f188074340b5"
+      url: "https://github.com/MikeAfegbua/video_thumbnail.git"
+    source: git
     version: "0.5.3"
   win32:
     dependency: transitive
@@ -289,5 +290,5 @@ packages:
     source: hosted
     version: "1.0.3"
 sdks:
-  dart: ">=3.3.0-0 <4.0.0"
+  dart: ">=3.4.0 <4.0.0"
   flutter: ">=3.13.0"

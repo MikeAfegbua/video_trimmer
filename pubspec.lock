@@ -47,7 +47,7 @@ packages:
       path: "flutter/flutter"
       ref: HEAD
       resolved-ref: "1d29b16bfca1baf03bf005cacebacdd0a225f731"
-      url: "https://github.com/MSOB7YY/ffmpeg-kit"
+      url: "https://github.com/MikeAfegbua/ffmpeg-kit"
     source: git
     version: "6.0.3"
   ffmpeg_kit_flutter_platform_interface:
